@@ -19,7 +19,7 @@
 
     --fonte-padrao: Arial, verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-android: 'Android', cursive;
+    --fonte-android: 'Android';
 }
 
 *{
@@ -106,13 +106,13 @@ main{
 
 
 main h1{
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-destaque);
     color: var(--cor4);
     font-weight: normal;
 }
 
 main h2{
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-destaque);
     color: var(--cor4);
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
